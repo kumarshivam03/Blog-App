@@ -1,13 +1,16 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+// import dotenv from "dotenv";
 // import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// dotenv.config();
+
 const firebaseConfig = {
-  apiKey: "AIzaSyBggcaLqt1Ry0_wItUb5zdZPqFnQdlY7ZI",
+  apiKey: import.meta.env.VITE_API_KEY,
   authDomain: "blog-app-b3096.firebaseapp.com",
   projectId: "blog-app-b3096",
   storageBucket: "blog-app-b3096.appspot.com",
