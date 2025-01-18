@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "firebase": "^10.7.1",
     "flowbite-react": "^0.7.0",
     "moment": "^2.29.4",
